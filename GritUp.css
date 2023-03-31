@@ -1,0 +1,195 @@
+.loader{
+       
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a, html , body {
+    text-decoration: none;
+}
+body{
+    
+}
+.navbar-menu{
+     margin-left: 40%;
+}
+
+.heading1{
+    padding-top: 150px;
+   
+    padding-left: 80px;
+    padding-right: 20px;
+    
+
+}
+
+nav{
+    padding-right: 40px;
+}
+
+@media (max-width:400px){
+    .heading1{
+        padding-left: 20px;
+        display: flex;
+        justify-content: start;
+
+    }
+    .subhead{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.head{
+    font-size: 40px;
+}
+
+.gritup{
+    color: #6811D7;
+}
+
+.animation{
+    display: flex;
+    justify-content: end;
+    margin-top: -400px;
+    padding-right: 40px;
+    
+}
+
+@media (max-width:950px){
+    .animation{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (min-width:950px) and (max-width:1000px){
+
+    .animation{
+        padding-right: 0px;
+    }
+
+    .logoo{
+        padding-top: 0px;
+        
+    }
+    .logoo1{
+        display: none;
+        visibility: hidden;
+    }
+    
+
+}
+
+@media (min-width:950px) and  (max-width:1400px){
+    .next{
+        display: flex;
+        justify-content: end;
+        margin-right: 30px;
+        
+    }
+}
+
+@media (min-width:950px){
+    .logoo1{
+        display: none;
+        visibility: hidden;
+    }
+
+}
+@media (min-width:0px) and (max-width:700px){
+    .logoo1{
+        display: none;
+        visibility: hidden;
+    }
+}
+.home{
+    
+    background-image: url(./assests/bg.png) ;
+    height: 550px;
+    
+    
+    
+    
+}
+.next{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.logoo{
+    padding-top: 40px;
+    padding-left: 0px;
+    height: 200px;
+    
+}
+.logoo1{
+    padding: 60px;
+    padding-right: 70px;
+}
+
+@media (max-width:950px){
+    .logoo{
+        display: none;
+        visibility: hidden;
+        height: 180px;
+        width: 100px;
+    
+    }
+    video{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+
+        
+        
+        
+    }
+    
+    .home{
+    
+        background-image: url(./assests/bg.png) ;
+        height: 580px;
+}
+.next{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+}
+.video {
+    padding-top: 0px;
+    width: 600px;
+    height: 400px;
+    padding-right: 0px;
+    
+}
+
+@media (min-width:800px){
+    .subhead{
+        padding-right: 60%;
+      }  
+}
+
+.subhead{
+    text-align: left;
+}
+@media (min-width:800px) and (max-width:950px){
+.logoo1{
+    visibility: visible;
+}
+
+}
+
+video{
+    
+}
+
+
